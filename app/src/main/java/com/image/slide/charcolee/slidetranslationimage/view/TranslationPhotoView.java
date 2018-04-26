@@ -200,9 +200,9 @@ public class TranslationPhotoView extends PhotoView implements Animator.Animator
 
 
     public interface OnTranslationListener{
-        void onTranslationStart();
-        void onTranslationReset();
-        void onTranslationFinish();
+        void onTranslationStart();//滑动开始
+        void onTranslationReset();//滑动重置
+        void onTranslationFinish();//滑动结束
     }
 
     /**
